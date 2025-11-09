@@ -14,8 +14,8 @@ import "./Dashboard";
 function App() {
   return (
     <body>
-      <Connexion />
-     <Inscription />
+      {/* <Connexion />
+     <Inscription /> */}
      <MotdepasseOublier />
      <Accueil />
      
