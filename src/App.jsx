@@ -2,27 +2,29 @@ import Connexion from "./Connexion";   // importer la page Login
 import Inscription from "./Inscription";
 import "./style.css";                  // importer le style
 import MotdepasseOublier from "./MpOublier";
-import Accueil from "./Accueil";
+
 import "./ListeDesHotel.css";
 
 import ListeDesHotel from "./ListeDesHotel";  
 import Dashboard from "./Dashboard";
-import "./Dashboard";
+import "./Dashboard.css";
+import Layout from "./Layout.jsx"; 
+
+
 
 
 
 function App() {
   return (
-    <body>
-      {/* <Connexion />
-     <Inscription /> */}
+    <div>
+       <Connexion />
+     <Inscription /> 
      <MotdepasseOublier />
-     <Accueil />
-     
-
+    
+     <Layout />
     <ListeDesHotel />
     <Dashboard />
-        </body>
+        </div>
     
   );
 }

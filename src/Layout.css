@@ -5,7 +5,7 @@
 
 .sidebar {
   width: 250px;
-  background-color: #1f242d;
+  background-color: #393c42;
   color: white;
   padding: 20px;
   display: flex;
@@ -19,7 +19,7 @@
 }
 
 .section-title {
-  color: #999;
+  color: #524e4e;
   margin: 10px 0;
 }
 
