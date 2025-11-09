@@ -1,0 +1,95 @@
+.dashboard-container {
+  padding: 20px;
+  font-family: "Inter", sans-serif;
+  background: #f6f8fc;
+  min-height: 100vh;
+}
+
+/* Header */
+.top-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+  background: white;
+  border-radius: 30px;
+  padding: 8px 15px;
+  width: 250px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.08);
+}
+
+.search-container input {
+  border: none;
+  outline: none;
+  margin-left: 10px;
+  width: 100%;
+}
+
+.search-icon {
+  opacity: 0.6;
+}
+
+.icons svg {
+  margin-left: 15px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+/* Welcome */
+.welcome {
+  margin-top: 25px;
+}
+
+.welcome h3 {
+  font-size: 24px;
+  margin: 0;
+}
+
+.welcome p {
+  color: gray;
+  margin-top: 4px;
+}
+
+/* Cards grid */
+.cards {
+  margin-top: 25px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 15px;
+}
+
+/* Card */
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+  text-align: left;
+}
+
+.icon-circle {
+  width: 45px;
+  height: 45px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+  font-size: 22px;
+}
+
+.card h2 {
+  margin: 0;
+  font-size: 26px;
+  font-weight: 600;
+}
+
+.card p {
+  margin: 3px 0 0;
+  color: gray;
+  font-size: 14px;
+}

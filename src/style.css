@@ -1,0 +1,88 @@
+/* Background fullscreen */
+
+body {
+  background: #4a4d50;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Title top */
+.site-title {
+  color: white;
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* Card form */
+.form {
+  background: white;
+  padding: 35px;
+  width: 380px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  text-align: center;
+}
+
+/* Subtitle inside form */
+.subtitle {
+  font-size: 17px;
+  margin-bottom: 25px;
+}
+
+/* Input fields */
+.input-group input {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  padding: 10px 0;
+  font-size: 15px;
+  outline: none;
+  margin-bottom: 22px;
+}
+
+/* Checkbox */
+.checkbox {
+  text-align: left;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  margin-bottom: 20px;
+}
+
+/* Button */
+.btn {
+  width: 100%;
+  border: none;
+  padding: 12px;
+  background: #444;
+  color: white;
+  font-size: 16px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+/* Footer links */
+.links {
+  text-align: center;
+  margin-top: 18px;
+  color: white;
+  font-size: 14px;
+}
+
+.links .forgot {
+  font-weight: bold;
+  color: #d1aa55;
+  cursor: pointer;
+}
+
+.links .register {
+  text-decoration: none;
+  font-weight: bold;
+  color: #d1aa55;
+  cursor: pointer;
+}

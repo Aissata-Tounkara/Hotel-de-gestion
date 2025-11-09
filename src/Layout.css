@@ -1,0 +1,52 @@
+.layout {
+  display: flex;
+  min-height: 100vh;
+}
+
+.sidebar {
+  width: 250px;
+  background-color: #1f242d;
+  color: white;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+
+.section-title {
+  color: #999;
+  margin: 10px 0;
+}
+
+.nav-link {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 15px;
+  border-radius: 8px;
+  color: white;
+  text-decoration: none;
+  transition: background 0.2s;
+  margin-bottom: 10px;
+}
+
+.nav-link:hover {
+  background: #333;
+}
+
+.nav-link.active {
+  background: white;
+  color: #000;
+  font-weight: 600;
+}
+
+.main-content {
+  flex: 1;
+  background: #f8f9fc;
+  padding: 20px;
+}
